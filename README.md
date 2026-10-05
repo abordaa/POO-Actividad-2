@@ -1,7 +1,7 @@
-# POO-Actividad-2
+
 Universidad: Universidad Nacional de Colombia
 
-Actividad: Programación Orientada a Objetos - Actividad 1 - Individual - Valor 10%
+Actividad: Programación Orientada a Objetos - Actividad 2 - Individual - Valor 20%
 
 Estudiante: Andrés Santiago Borda Aya
 

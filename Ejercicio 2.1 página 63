@@ -1,14 +1,12 @@
 class Persona:
-    # Constructor modificado con los dos nuevos atributos
     def __init__(self, nombre, apellido, numeroDocumentoIdentidad, anioNacimiento, paisNacimiento, genero):
         self.nombre = nombre
         self.apellido = apellido
         self.numeroDocumentoIdentidad = numeroDocumentoIdentidad
         self.anioNacimiento = anioNacimiento
         self.paisNacimiento = paisNacimiento
-        self.genero = genero  # 'H' para Hombre, 'M' para Mujer
+        self.genero = genero 
 
-    # Método imprimir modificado para mostrar los nuevos atributos
     def imprimir(self):
         print(f"Nombre = {self.nombre}")
         print(f"Apellido = {self.apellido}")

@@ -1,14 +1,14 @@
 class Persona:
-    # Método constructor de una persona
+    # Constructor modificado con los dos nuevos atributos
     def __init__(self, nombre, apellido, numeroDocumentoIdentidad, anioNacimiento, paisNacimiento, genero):
         self.nombre = nombre
         self.apellido = apellido
         self.numeroDocumentoIdentidad = numeroDocumentoIdentidad
         self.anioNacimiento = anioNacimiento
         self.paisNacimiento = paisNacimiento
-        self.genero = genero
+        self.genero = genero  # 'H' para Hombre, 'M' para Mujer
 
-    # Método para imprimir los datos de una persona
+    # Método imprimir modificado para mostrar los nuevos atributos
     def imprimir(self):
         print(f"Nombre = {self.nombre}")
         print(f"Apellido = {self.apellido}")
@@ -16,14 +16,12 @@ class Persona:
         print(f"Año de nacimiento = {self.anioNacimiento}")
         print(f"País de Nacimiento = {self.paisNacimiento}")
         print(f"Género = {self.genero}")
-        print() # Imprime un salto de línea
+        print()
 
-# Clase principal equivalente a TPOOA1Ejercicio2punto1pagina63
 if __name__ == "__main__":
-    # Creación de los objetos
-    p1 = Persona("Pedro", "Pérez", "1053121010", 1998, "Colombia", 'M')
-    p2 = Persona("Luis", "León", "1053223344", 2001, "Panama", 'M')
+    # Pedro y Luis con género 'H' (Hombre)
+    p1 = Persona("Pedro", "Pérez", "1053121010", 1998, "Colombia", 'H')
+    p2 = Persona("Luis", "León", "1053223344", 2001, "Panamá", 'H')
 
-    # Llamado al método imprimir
     p1.imprimir()
     p2.imprimir()
